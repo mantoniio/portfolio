@@ -14,10 +14,15 @@ body {
   font-size: 1.8rem;
 }
 
+footer,
 section {
   padding: 5rem;
   max-width: 96rem;
   margin: 0 auto;
+}
+
+footer {
+  flex-direction: column;
 }
 
 h2 {
@@ -80,5 +85,24 @@ h2 {
   background-color: #162340;
 }
 
+.project {
+  margin: 4rem 0;
+}
+
+.project-image {
+  width: 24rem;
+  height: 18rem;
+  margin-right: 2.4rem;  
+  border-radius: 0.6rem;
+}
+
+.project-title {
+  font-size: 3rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 3.5rem;
+}
 
 
